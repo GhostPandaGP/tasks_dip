@@ -1,3 +1,16 @@
+# Hi, here's your problem today. This problem was recently asked by Microsoft:
+#
+# Given the root of a binary tree, print its level-order traversal. For example:
+#
+#   1
+#  / \
+# 2   3
+#    / \
+#   4   5
+#
+# The following tree should output 1, 2, 3, 4, 5.
+
+
 class Node(object):
     def __init__(self, val):
         self.val = val
